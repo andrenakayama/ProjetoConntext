@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexActivity"
+    android:orientation="vertical"
+    android:background="@color/corbackground">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logolaranja"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our Quiz!"
+        android:textSize="25dp"
+        android:textColor="#FFF"
+        android:textStyle="italic"
+        android:layout_marginLeft="35dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:width="500dp"
+        android:id="@+id/txtName"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_marginLeft="35dp"
+        android:hint="Enter with your name"
+        android:theme="@style/LoginEditText"
+        />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/startbutton"
+            android:id="@+id/btnStart"
+            />
+
+</LinearLayout>

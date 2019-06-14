@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Easy_two_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/backgradi">
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="40"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idVidas"
+            android:paddingRight="4dp"
+            android:text="5"
+            android:textSize="25dp"/>
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_life" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="left"
+            android:background="@drawable/bordaquestao"
+            />
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A fruta maça é"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textSize="30dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/btnStramberry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stramberry"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            />
+        <TextView
+            android:id="@+id/btnCoconut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coconut"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/btnPapays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papays"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/btnApple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/btnLemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lemon"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Conntext</string>
+    <string name="edit">Edit: It will not be possible to change the difficulty during the test.</string>
+
+</resources>
